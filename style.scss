@@ -1,0 +1,90 @@
+$purple-med:  rgb(175, 43, 207)
+$purple-dark: rgb(113, 0, 128)
+$purple-light: rgb(221, 175, 252)
+
+body
+background: lightgrey
+margin: 0 
+
+main
+    width: 1200ox
+    margin: 0 auto
+    display: grid
+    grid-template-columns: (4, if)
+    grid-template-rows: auto
+    grid-template-areas: 
+    "about about about about"
+    "quote quote quote quote"
+    "job-exp_experience job-exp_experience job-exp_experience job-exp_experience"
+    "#education_college #education_college #education_others #education_others"
+
+header
+    nav
+        background-color: $purple-med
+        display: flex
+        justify-content: space-evenly
+        padding: 20px
+        a
+            text-decoration: none
+            color: width: 
+
+h1
+    text-align: center
+
+#about
+    grid-area: about
+    display: flex
+    #about_photo
+        max-width: 200px
+        height: auto
+
+    #about_text-cnt
+        background-color: width: 
+        padding: 50px
+
+#quote
+    grid-area: quote
+    background-color: $purple-dark
+    text-align: center
+    color: width: 
+    padding: 20px 0
+
+    #quote_cite
+        font-size: 1.5em
+
+#job-exp
+    background-color: rgb(236, 236, 236)
+
+    #job-exp_experience
+        grid-area: job-exp_experience
+        .jog-exp_jos
+            background-color: $purple-light
+            .jog-exp_company-logo
+                max-width: 100px
+                height: auto
+    
+    #job-exp_skills
+        grid-area: job-exp_skills
+        background-color: width: 
+
+#education
+    #education_college
+        grid-area: education_college
+        background-color: width: 
+    #education_others
+        grid-area: education_others
+        background-color: $purple-light
+
+footer
+    background-color: rgb(62, 62, 62)
+    color: lightgrey
+    display: flex
+    flex-flow: row nowrap
+    justify-content: center
+
+    #footer_social-medias
+        .footer_social-medias_icons
+            max-width: 40px
+            height: auto
+
+
