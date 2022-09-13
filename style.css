@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Poppins:ital,wght@0,600;0,700;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman&family=IM+Fell+Double+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-1-bg
+{   background-image: url(imagens/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+aside
+{   position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.icon-menu img
+{   width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#barra-menu
+{   background: #180127;
+    height: 100vh;
+    width: 0px;
+    transition: 0.3s all;
+}
+
+#barra-menu ul li 
+{   list-style: none;
+    padding: 10px;
+}
+
+#barra-menu ul li a
+{   color: rgb(243, 240, 240);
+    text-decoration: none;
+    font-size: 1em;
+    width: 100%;
+}
+
+#barra-menu ul li a:hover
+{   color: rgb(75, 73, 73);
+    padding: 4px;
+    
+}
+
+.c-icon 
+{   margin-top: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.c-icon span
+{ color: azure;}
+
+.c-icon span:hover 
+{   transition: 0.2s;
+    transform: 0.5s;
+    color: rgb(75, 73, 73);
+}
