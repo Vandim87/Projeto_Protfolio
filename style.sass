@@ -1,10 +1,11 @@
 $purple-med:  rgb(175, 43, 207)
 $purple-dark: rgb(221, 175, 252)
 $purple-light: rgb(221, 175, 252)
+$cinza-claro: rgb(168, 166, 166)
 
 body
-background: lightgrey
-margin: 0 
+    background: $cinza-claro
+    margin: 0
 
 main
     width: 1200ox
@@ -13,10 +14,10 @@ main
     grid-template-columns: (4, if)
     grid-template-rows: auto
     grid-template-areas: 
-    "about about about about"
-    "quote quote quote quote"
-    "job-exp_experience job-exp_experience job-exp_experience job-exp_experience"
-    "#education_college #education_college #education_others #education_others"
+        "about about about about"
+        "quote quote quote quote"
+        "job-exp_experience job-exp_experience job-exp_experience job-exp_experience"
+        "#education_college #education_college #education_others #education_others"
 
 header
     nav
