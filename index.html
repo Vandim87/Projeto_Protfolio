@@ -7,16 +7,16 @@
     <title>Portfolio</title>
     <link rel="shortcut icon" href="imagens/computador.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
     <link href = "https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"  rel = "stylesheet" >
 </head>
+
 <body>
     <div class="section-1-bg"><!--Cabeçalho verificar trocar pro heard-->
         <aside>
-            <div class="icon-menu">
+            <div class="icon-menu" onclick="abrirmenu()">
                 <img src="imagens/menu-suspenso.png" alt="menu-abertura">
             </div>
-            <div id="barra-menu" onclick="abrirMenu()">
+            <div id="barra-menu">
                 <ul>
                     <li><a href="#">Inico</a></li>
                     <li><a href="#">Serviços</a></li>
@@ -35,7 +35,7 @@
         <div class="main-title">
             <h1>Hi, I'm Evandro
             </h1>
-            <h3>I'm a full stack developer</h3>
+            <h2>I'm a full stack developer</h2>
             <h5>work as a freelancer
             </h5>
             <button class="btn">Conheça mais..</button>
@@ -56,7 +56,7 @@
             </div>
         </div>
     </div>
-    
+    <script src="script.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 </html>
