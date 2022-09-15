@@ -5,13 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*body
+body
 {
 min-height: 100vh;
 align-items: center;
 justify-content: center;
-background-color: #aaa5a5;
-}*/
+}
 .section-1-bg
 {   
     background-image: url(imagens/background.jpg);
@@ -166,7 +165,8 @@ aside
     margin: 10px 10px;
 }
 .card
-{   width: 320px;
+{   
+    width: 320px;
     border-radius: 5px ;
     background-color: #fff;
 }
