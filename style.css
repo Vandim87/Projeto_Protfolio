@@ -10,24 +10,22 @@ body
 min-height: 100vh;
 align-items: center;
 justify-content: center;
+background: rgb(238, 232, 232);
 }
-h3
+header
 {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #fff;
+    position: fixed;
+    width: 100%;
 }
-nav
-{
+nav 
+{   
     display: flex;
-    justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont;
     background : #180127;
     height: 8vh;
 }
-.section-1-bg
+.section1
 {   
     background-image: url(imagens/background.jpg);
     background-repeat: no-repeat;
@@ -36,25 +34,18 @@ nav
     height: 100vh;
     width: 100%;
 }
-aside
-{   position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    overflow: hidden;
-}
-.icon-menu img
-{   
-    width: 40px;
-    height: 40px;
-    margin-right: 15px;
-    margin-top: 15px;
+.icon-menu img 
+{  
+    width: 30px;
+    height: 30px;
+    margin: 15px 0px 15px 10px;
 }
 #barra-menu
 {   
     background: #180127;
     height: 100vh;
     width: 0px;
+    overflow: hidden;
     transition: 0.3s all;
 }
 #barra-menu ul li 
@@ -95,11 +86,11 @@ aside
     color: rgb(75, 73, 73);
 }
 .main-title
-{   
+{   border: #fff solid 5px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     margin-left: 20%;
+    margin-right: 10%;
     flex-wrap: wrap;
 }
 .main-title h1
@@ -269,7 +260,15 @@ aside
     border-radius: 5px;
     border: #1d042e solid 1px;
 }
-
+footer 
+{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-family: system-ui, BlinkMacSystemFont;
+    background : #180127;
+    height: 5vh;
+}
 
 @media screen and (max-width: 412px)
 {   
